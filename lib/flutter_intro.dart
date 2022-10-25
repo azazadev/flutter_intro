@@ -269,15 +269,6 @@ class Intro extends InheritedWidget {
                       color: Colors.white,
                     ),
                   ),
-                  SizedBox(
-                    height: 12,
-                  ),
-                  IntroButton(
-                    text: buttonTextBuilder == null
-                        ? 'Next'
-                        : buttonTextBuilder!(introStepBuilder.order),
-                    onPressed: _render,
-                  ),
                 ],
               ),
             ),
